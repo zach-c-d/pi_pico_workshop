@@ -1,6 +1,6 @@
-25/06/2023 23:22 pi pico workshop
+# notes for planning the pi pico workshop!
 
-25/06/2023 23:22 pi pico workshop
+## workshop resources
 
 wiki page: https://wiki.hacklab.to/Arduino_for_Beginners_with_A-Train_and_Zack
 
@@ -13,7 +13,7 @@ rpf.io/pico-intro
 
 ---
 
-##
+## workshop skeleton
 
 1. introduction to computers
    - terminology
@@ -25,4 +25,3 @@ rpf.io/pico-intro
    - button example
    - servo example
      - servo with zerostop example
-
