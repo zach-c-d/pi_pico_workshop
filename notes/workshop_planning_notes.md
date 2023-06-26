@@ -33,6 +33,7 @@
 ### What is a Microcontroller?
 
 - a cheap computer that only runs one program, and starts it automatically when it turns on
+- quick video with animation of what writing to a register looks like: https://youtu.be/3FLxA-Owgpw?t=89
 
 #### Why use a microcontroller
 
@@ -69,4 +70,23 @@
 
 ### thonny
 
+-
+
 ### libraries
+
+- thonny package manager
+- [servo library](https://pypi.org/project/micropython-servo/)
+
+---
+
+## action items
+
+- preload directory of example file on pi picos
+  - blink example
+  - button example
+  - servo library
+- for servo library --
+  - have preloaded servo library commented out
+  - get partipants to install servo library through thonny package manager
+  - get participants to write `include` command for the servo library they just installed
+  - in case of difficulty or internet issues, they can uncomment the preloaded servo library and continue with driving the servo.
