@@ -1,12 +1,10 @@
 # notes for planning the pi pico workshop!
 
-## workshop resources
+## workshop resources & research notes
 
-wiki page: https://wiki.hacklab.to/Arduino_for_Beginners_with_A-Train_and_Zack
+- wiki page: https://wiki.hacklab.to/Arduino_for_Beginners_with_A-Train_and_Zack
 
-rpf.io/pico-intro
-
-- beginner projects with excellent documenation
+- beginner projects with excellent documenation: rpf.io/pico-intro
 - [servo library](https://pypi.org/project/micropython-servo/)
   - alternative: servo class: https://how2electronics.com/how-to-control-servo-motor-with-raspberry-pi-pico/
 - saving a python script "on the pico filesystem" as `main.py` will cause the pico to automatically run that script on boot.
@@ -25,3 +23,50 @@ rpf.io/pico-intro
    - button example
    - servo example
      - servo with zerostop example
+
+---
+
+## introduction to computers
+
+### What is a Raspberry Pi Pico?
+
+### What is a Microcontroller?
+
+- a cheap computer that only runs one program, and starts it automatically when it turns on
+
+#### Why use a microcontroller
+
+- power effecient
+  - doesn't have a regular operating system or other programs taking up "cycles" of the processor.
+- great for precise and fast timing -- on the order of nanoseconds
+  - second, millis, micro, nano --> ( 0.000001 seconds)
+
+### Why use a Raspberry Pi
+
+- The RaspberryPi organization is focused on education
+  - Their products are well documented
+- RaspberryPi is a popular brand, so there is a large community of tinkerers using these boards
+  - makes googling easier
+    - stack overflow answers
+    - reddit answers
+
+## How to start coding with the Pico?
+
+- googlefu
+- software
+  - Thonny
+  - libraries
+
+### Google Fu
+
+- how to structure google search:
+
+> `MicroPython` + `[Specific Error Message]`
+
+- other great keywords: `stackoverflow` `reddit` `RP2040`
+
+## software
+
+### thonny
+
+### libraries
